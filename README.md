@@ -27,12 +27,12 @@ Art acknowledgement: [taag](http://patorjk.com/software/taag/)
    | 1        | 0        | 0        | 1        | 0        | 0        | True     |
    | 1        | 1        | 0        | 0        | 0        | 0        | True     |
 
-| A        | B        | A'       | B'       | A' * B'  | (A + B)' | A' * B' -> (A + B)' |
-|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| 0        | 0        | 1        | 1        | 1        | 1        | True     |
-| 0        | 1        | 1        | 0        | 0        | 0        | True     |
-| 1        | 0        | 0        | 1        | 0        | 0        | True     |
-| 1        | 1        | 0        | 0        | 0        | 0        | True     |
+   | A        | B        | A'       | B'       | A' + B'  | (A * B)' | A' + B' -> (A * B)' |
+   |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+   | 0        | 0        | 1        | 1        | 1        | 1        | True     |
+   | 0        | 1        | 1        | 0        | 1        | 1        | True     |
+   | 1        | 0        | 0        | 1        | 1        | 1        | True     |
+   | 1        | 1        | 0        | 0        | 0        | 0        | True     |
 
 
 1. In this experiment, two basic gates were built out of NPN transistors -- an inverter and an OR gate.
