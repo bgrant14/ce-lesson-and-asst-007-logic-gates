@@ -18,6 +18,22 @@ Art acknowledgement: [taag](http://patorjk.com/software/taag/)
 4. Refer to the [criteria and guide](criteria-and-guide.md) for the different components of your submission.
 ---
 ## Section 1: AND, OR, and NOT gates from NPN transistors
+1. The following truth tables show DeMorgan's Law:
+| A        | B        | A'       | B'       | A' * B'  | (A + B)' | A' * B' -> (A + B)' |
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| 0        | 0        | 1        | 1        | 1        | 1        | True     |
+| 0        | 1        | 1        | 0        | 0        | 0        | True     |
+| 1        | 0        | 0        | 1        | 0        | 0        | True     |
+| 1        | 1        | 0        | 0        | 0        | 0        | True     |
+
+| A        | B        | A'       | B'       | A' * B'  | (A + B)' | A' * B' -> (A + B)' |
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| 0        | 0        | 1        | 1        | 1        | 1        | True     |
+| 0        | 1        | 1        | 0        | 0        | 0        | True     |
+| 1        | 0        | 0        | 1        | 0        | 0        | True     |
+| 1        | 1        | 0        | 0        | 0        | 0        | True     |
+
+
 1. In this experiment, two basic gates were built out of NPN transistors -- an inverter and an OR gate.
 
 _Inverter_
