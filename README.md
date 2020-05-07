@@ -19,6 +19,7 @@ Art acknowledgement: [taag](http://patorjk.com/software/taag/)
 ---
 ## Section 1: AND, OR, and NOT gates from NPN transistors
 1. The following truth tables show DeMorgan's Law:
+
 | A        | B        | A'       | B'       | A' * B'  | (A + B)' | A' * B' -> (A + B)' |
 |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | 0        | 0        | 1        | 1        | 1        | 1        | True     |
