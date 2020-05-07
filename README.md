@@ -45,7 +45,7 @@ Art acknowledgement: [taag](http://patorjk.com/software/taag/)
 
    Using my understanding of the transistors and the experience with the inverter from the previous part of this experiment, I designed an OR gate using two transistors. In my design, the collectors for both transistors are connected to power through 1kΩ resistors, the bases are connected to either input (A and B), and both emitters are connected to ground through the same LED. When neither of the input buttons are pressed, no current can make it through the transistors to power the LED (0+0 = 0). When either or both of the inputs are pressed, powering the bases, the transistors create a path for current through the LED to the ground (0+1 = 1+0 = 1+1 = 1).
 
-![alt text](images/OR-NPN-design.png)
+   ![alt text](images/OR-NPN-design.png)
 
    _Automating Inputs_
 
