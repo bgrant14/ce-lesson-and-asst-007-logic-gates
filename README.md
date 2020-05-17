@@ -154,7 +154,7 @@ _Due to time constraints, I have not included all of the gates for each section.
    I used the same code for both sections of this assignment as I misunderstood the instructions. However, the code works for both parts.
 
    _NOR Exhaustive Truth Table_
-   | A | B | C | D | E | F | G | H | __Q__ |
+   | A | B | C | D | E | F | G | H | _Q_ |
    |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
    | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
    | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
