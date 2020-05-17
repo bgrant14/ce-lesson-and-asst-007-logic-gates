@@ -127,4 +127,6 @@ _Due to time constraints, I have not included all of the gates for each section.
    | 1110     | NAND | (A*B)' |
    | 1111     | A _OR NOT_ A | A+A' |
 
-2. ![alt_text](images/Combinational.jpg)
+2. 
+
+   ![alt_text](images/Combinational.jpg)
