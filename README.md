@@ -54,3 +54,21 @@ Art acknowledgement: [taag](http://patorjk.com/software/taag/)
 2. [1.2.2 Inverter](https://i.imgur.com/vnHR0Iu.mp4)
 3. [1.2.3 OR Gate](https://i.imgur.com/MP3CHD3.mp4)
 4. [1.2.5 Automated Input](https://i.imgur.com/MmYteJX.mp4)
+
+## Section 2: Drive and Read NPN Based Gates
+
+1. In this experiment I constructed an OR gate an and AND gate using NPN transistors. In contrast to the OR gate, the AND gate was constructed using the transistors in series, rather than parallel. So, the emitter of the first transistor was connected to the collector of the next. All of the resistors from the previous experiment were initially replaced with 10kΩ resistors, however the 10kΩ resistor could not be used at the collector when driving input to the microbit, as explained below.
+
+   As was the case in previous experiments, I had issues with my LLC and I used a voltage divider to drive input to the microbit instead. I connected a 220Ω resistor to the collector of my transistors and a 330Ω resistor in between the output and the ground. I connected this to my multimeter first in order to verify that it was outputting approximately 3V, before using it as input for my microbit.
+2. With the voltage divider, the gate was outputting between 0V and 2.97V. The program mapped 0V to 0 brightness and 2.97V to full (255) brightness.
+3. The OR gate appears to be operating properly, as the output LED on the microbit shows the correct result. The output LED also appears to be the same brightness regardless of whether the input is 01/10 or 11, indicating a digital result.
+
+   The AND gate gives slightly erroneous output when being read as an analog input. When the output is 10, the output LED comes on dimly and the voltage being read is 0.11V instead of 0. With the output of 11, the voltage is 3.25V and the output LED is fully illuminated. In the case where there is an erroneous signal, the pin being powered connects to the second transistor in the series, indicating that closing this switch causes some voltage leak from an unknown source.
+
+_Due to time constraints, I have not included all of the gates for each section._
+4. [2.2.4 OR Gate]()
+   [2.2.4 AND Gate]()
+5. [2.2.5 AND Gate]()
+
+## Section 3: Logic Gate ICs
+
