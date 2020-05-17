@@ -129,7 +129,7 @@ _Due to time constraints, I have not included all of the gates for each section.
    | 1110     | NAND | (A*B)' |
    | 1111     | A _OR NOT_ A | A+A' |
 
-2. Basic gates from other gates:
+2. Basic gates from combinations of universal gates:
 
    ![alt_text](images/Combinational.jpg)
    
