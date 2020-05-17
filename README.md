@@ -67,10 +67,41 @@ Art acknowledgement: [taag](http://patorjk.com/software/taag/)
 
 _Due to time constraints, I have not included all of the gates for each section._
 
-4. [2.2.4 OR Gate]()
+4. [2.2.4 OR Gate](https://i.imgur.com/2L5VlLs.mp4)
    
-   [2.2.4 AND Gate]()
-5. [2.2.5 AND Gate]()
+   [2.2.4 AND Gate](https://i.imgur.com/Yl1woVs.mp4)
+5. [2.2.5 AND Gate](https://i.imgur.com/p2b6wGA.mp4)
 
 ## Section 3: Logic Gate ICs
 
+1. In this experiment integrated circuit logic gates were used instead of individual transistors. A large part of performing this experiment correctly was dependent upon reading the datasheets for each chip in order to connect them to power, ground, inputs and output. 
+
+   For part 3.2.2, the same code was used on the microbit as in the previous experiment.
+   
+   For part 3.2.3, the code was modified to switch the 74135 selector bit and display the output that was being written to this pin. This code sucessfully switched the output between XOR and XNOR.
+   
+2. Each of these voltage measurements were taken relative to ground, between a resistor and an output LED.
+
+   The inverter output voltage was measured as 2.89V high and 0.08V low.
+
+   The OR gate output voltage was 2.80V high and 0.06V low.
+   
+   The AND gate output voltage was 2.82V high and 0.09V low.
+   
+   The NAND gate output voltage 2.67V high and 0.16V low.
+   
+   The XOR gate output voltage was 2.68V high and 0.09V low.
+
+3. [Inverter 3.2.2](https://i.imgur.com/LOcY5nX.mp4)
+
+   [AND 3.2.2](https://i.imgur.com/U1ymvu4.mp4)
+   
+   [OR 3.2.2](https://i.imgur.com/UIclu2T.mp4)
+   
+   [NAND 3.2.2](https://i.imgur.com/ltuDNBw.mp4)
+   
+   [XOR 3.2.2](https://i.imgur.com/nvwwXtt.mp4)
+   
+4. [XOR/XNOR 3.2.3](https://i.imgur.com/qvVxo3s.mp4)
+   
+   
