@@ -106,7 +106,7 @@ _Due to time constraints, I have not included all of the gates for each section.
    
 ## Section 4: Combinational Logic
 
-1. 
+1. In this experiment, basic gates were built out of universal gates. The microbit code from the previous section was modified to read from a second input pin and display the result on one of the built in LEDs. The gates were each constructed side by side with their logical equivalent.
 
    | Output   | Gate     | Boolean Expression | 
    |:--------:|:--------:|:--------:|
@@ -127,6 +127,8 @@ _Due to time constraints, I have not included all of the gates for each section.
    | 1110     | NAND | (A*B)' |
    | 1111     | A _OR NOT_ A | A+A' |
 
-2. 
+2. Basic gates from other gates:
 
    ![alt_text](images/Combinational.jpg)
+   
+3. 
