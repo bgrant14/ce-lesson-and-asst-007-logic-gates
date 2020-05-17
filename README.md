@@ -74,7 +74,7 @@ _Due to time constraints, I have not included all of the gates for each section.
 
 ## Section 3: Logic Gate ICs
 
-1. In this experiment integrated circuit logic gates were used instead of individual transistors. A large part of performing this experiment correctly was dependent upon reading the datasheets for each chip in order to connect them to power, ground, inputs and output. 
+1. In this experiment integrated circuit logic gates were used instead of individual transistors. A large part of performing this experiment correctly was dependent upon reading the datasheets for each chip in order to connect them to power, ground, input(s) and output. 
 
    For part 3.2.2, the same code was used on the microbit as in the previous experiment.
    
@@ -106,7 +106,9 @@ _Due to time constraints, I have not included all of the gates for each section.
    
 ## Section 4: Combinational Logic
 
-1. In this experiment, basic gates were built out of universal gates. The microbit code from the previous section was modified to read from a second input pin and display the result on one of the built in LEDs. The gates were each constructed side by side with their logical equivalent.
+1. In this experiment, various basic gates were built out of universal gates or gate sets. The microbit code from the previous section was modified to read from a second input pin connected to an equivalent gate and display the result on the built-in LED directly to the right of the output from the original gate. One the breadboard, each basic gate was constructed on the right and its logical equivalent was constructed to the left. The output on the microbit confirmed that each set of circuits produced equivalent output.
+
+   For my NAND gate XOR design, I required 5 NAND gates. Unfortunately when I plugged in my second 7400 NAND chip for the final gate, I was receiving a constant high signal from the output. Upon checking the intermediate outputs I determined that the second chip was the source of the problem. To simulate another NAND gate I used a 7408 AND followed by a 7404 inverter and I verified that the output was correct.
 
    | Output   | Gate     | Boolean Expression | 
    |:--------:|:--------:|:--------:|
@@ -131,14 +133,14 @@ _Due to time constraints, I have not included all of the gates for each section.
 
    ![alt_text](images/Combinational.jpg)
    
-3. [AND & NOT/OR]()
+3. [AND & NOT/OR](https://i.imgur.com/IYGJG0b.mp4)
 
-   [OR & NOT/AND]()
+   [OR & NOT/AND](https://i.imgur.com/9G0rhnF.mp4)
    
-   [NOT & NAND]()
+   [NOT & NAND](https://i.imgur.com/VuTitY2.mp4)
    
-   [AND & NAND]()
+   [AND & NAND](https://i.imgur.com/GCJSM2B.mp4)
    
-   [OR & NAND]()
+   [OR & NAND](https://i.imgur.com/5Ey0Wvg.mp4)
    
-   [XOR & NAND]()
+   [XOR & NAND](https://i.imgur.com/dVqe3Dx.mp4)
