@@ -121,8 +121,8 @@ _Due to time constraints, I have not included all of the gates for each section.
    | 1000     | _NOR_ | (A+B)' |
    | 1001     | _XNOR_ | (A⊕B)' |
    | 1010     | _NOT_ B | B' |
-   | 1011     | B _NOT AND_ _NOT_ (A _AND_ B) | (B*(A*B)')' |
+   | 1011     | B _NAND_ (A _NAND_ B) | (B*(A*B)')' |
    | 1100     | _NOT_ A | A' |
-   | 1101     | A _NOT AND NOT_ (A _AND_ B) | (A*(A*B)')' |
+   | 1101     | A _NAND_ (A _NAND_ B) | (A*(A*B)')' |
    | 1110     | NAND | (A*B)' |
    | 1111     | A _OR NOT_ A | A+A' |
