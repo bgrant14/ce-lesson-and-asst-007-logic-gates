@@ -688,4 +688,17 @@ _Due to time constraints, I have not included all of the gates for each section.
    | Odd number of inputs H | H |
    | Even number of inputs H | L |
 
-2. 
+2. [AND](https://i.imgur.com/m3ajLTy.mp4)
+
+   [NAND](https://i.imgur.com/lW1hJWV.mp4)
+   
+   [OR](https://i.imgur.com/IM6yBcL.mp4)
+   
+   [NOR](https://i.imgur.com/J19vve7.mp4)
+
+   [XOR](https://i.imgur.com/1JOZI5Q.mp4)
+   
+   [XNOR](https://i.imgur.com/YKVpv59.mp4)
+   
+3. [XOR/XNOR](https://i.imgur.com/zkbO5Py.mp4)
+
