@@ -104,4 +104,25 @@ _Due to time constraints, I have not included all of the gates for each section.
    
 4. [XOR/XNOR 3.2.3](https://i.imgur.com/qvVxo3s.mp4)
    
-   
+## Section 4: Combinational Logic
+
+1. 
+
+   | Output   | Gate     | Boolean Expression | 
+   |:--------:|:--------:|:--------:|
+   | 0000     | _NOT_ A _AND_ A | A*A'     |
+   | 0001     | _AND_ | A*B |
+   | 0010     | A _AND NOT_ B | A*B' |
+   | 0011     | This does not require a gate. | A |
+   | 0100     | _NOT_ A _AND_ B | A'*B |
+   | 0101     | This does not require a gate. | B |
+   | 0110     | _XOR_ | A⊕B |
+   | 0111     | _OR_ | A+B |
+   | 1000     | _NOR_ | (A+B)' |
+   | 1001     | _XNOR_ | (A⊕B)' |
+   | 1010     | _NOT_ B | B' |
+   | 1011     | B _NOT AND_ _NOT_ (A _AND_ B) | (B*(A*B)')' |
+   | 1100     | _NOT_ A | A' |
+   | 1101     | A _NOT AND NOT_ (A _AND_ B) | (A*(A*B)')' |
+   | 1110     | NAND | (A*B)' |
+   | 1111     | A _OR NOT_ A | A+A' |
