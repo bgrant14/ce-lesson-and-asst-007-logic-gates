@@ -131,4 +131,14 @@ _Due to time constraints, I have not included all of the gates for each section.
 
    ![alt_text](images/Combinational.jpg)
    
-3. 
+3. [AND & NOT/OR]()
+
+   [OR & NOT/AND]()
+   
+   [NOT & NAND]()
+   
+   [AND & NAND]()
+   
+   [OR & NAND]()
+   
+   [XOR & NAND]()
