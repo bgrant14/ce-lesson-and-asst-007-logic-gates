@@ -131,7 +131,7 @@ _Due to time constraints, I have not included all of the gates for each section.
 
 2. Basic gates from combinations of universal gates:
 
-   ![alt_text](images/Combinational.jpg)
+   ![alt_text](images/Combinational1.jpg)
    
 3. [AND & NOT/OR](https://i.imgur.com/IYGJG0b.mp4)
 
