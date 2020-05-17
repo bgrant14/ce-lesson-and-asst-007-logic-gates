@@ -66,6 +66,7 @@ Art acknowledgement: [taag](http://patorjk.com/software/taag/)
    The AND gate gives slightly erroneous output when being read as an analog input. When the output is 10, the output LED comes on dimly and the voltage being read is 0.11V instead of 0. With the output of 11, the voltage is 3.25V and the output LED is fully illuminated. In the case where there is an erroneous signal, the pin being powered connects to the second transistor in the series, indicating that closing this switch causes some voltage leak from an unknown source.
 
 _Due to time constraints, I have not included all of the gates for each section._
+
 4. [2.2.4 OR Gate]()
    [2.2.4 AND Gate]()
 5. [2.2.5 AND Gate]()
