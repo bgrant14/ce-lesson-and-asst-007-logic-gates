@@ -422,7 +422,7 @@ _Due to time constraints, I have not included all of the gates for each section.
 
    _XOR Exhaustive Truth Table_
 
-   | A | B | C | D | E | F | G | H | __Q__ |
+   | A | B | C | D | E | F | G | H | _Q_ |
    |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
    | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
    | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
@@ -681,6 +681,11 @@ _Due to time constraints, I have not included all of the gates for each section.
    | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 0 | 1 |
    | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 0 |
    
+   _XOR Abstract Truth Table_
    
+   | Inputs A through H | Output Q |
+   |:-:|:-:|
+   | Odd number of inputs H | H |
+   | Even number of inputs H | L |
 
 2. 
