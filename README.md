@@ -68,6 +68,7 @@ Art acknowledgement: [taag](http://patorjk.com/software/taag/)
 _Due to time constraints, I have not included all of the gates for each section._
 
 4. [2.2.4 OR Gate]()
+   
    [2.2.4 AND Gate]()
 5. [2.2.5 AND Gate]()
 
