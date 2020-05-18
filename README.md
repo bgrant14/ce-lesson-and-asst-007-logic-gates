@@ -696,7 +696,13 @@ _Due to time constraints, I have not included all of the gates for each section.
    
    _Full Adder_
    
-   On its own, the sum output for the full adder requires three fewer gates than the original circuit.
+      __Sum Output Question__
+      On its own, the sum output for the full adder requires three fewer gates than the original circuit.
+   
+      __Cout Output Questions__
+      
+      Sum of Minterms:
+      <img src="https://render.githubusercontent.com/render/math?math=\bar{A}BC+A\bar{B}C+AB\bar{C}+ABC">
    
     ![alt_text](images/Adder.jpg)
 
