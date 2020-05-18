@@ -152,8 +152,12 @@ _Due to time constraints, I have not included all of the gates for each section.
    If the code detects an XOR gate, it assumes that it is connected to the XOR/XNOR chip and powers an additional output pin to switch the chip to XNOR mode. It then displays the next set of results line-by-line next to the XOR results before running a second analysis and confirming that it is XNOR.
    
    I used the same code for both sections of this assignment as I misunderstood the instructions. However, the code works for both parts.
+   
+   
+   **_The following exhaustive truth tables were generated using a C program. I have included my code in the repository._
 
    _NOR Exhaustive Truth Table_
+   
    | A | B | C | D | E | F | G | H | _Q_ |
    |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
    | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
