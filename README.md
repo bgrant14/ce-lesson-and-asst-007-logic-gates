@@ -710,6 +710,7 @@ _Due to time constraints, I have not included all of the gates for each section.
       
       <img src="https://render.githubusercontent.com/render/math?math=\bar{A}BC %2B A\bar{B}C %2B AB(\bar{C} %2B C)">
       
+      
       <img src="https://render.githubusercontent.com/render/math?math=\bar{A}BC %2B A(B %2B \bar{B}C)">
       
       <img src="https://render.githubusercontent.com/render/math?math=\bar{A}BC %2B AB %2B AC">
