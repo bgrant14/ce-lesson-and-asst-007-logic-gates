@@ -25,12 +25,11 @@ function iterate() {
         B = 0
         A = 0
         row = 1
-        basic.pause(1500)
+        basic.pause(1000)
         //check whether the final row led is on first, then id the gate
         if (!led.point(4, 1) && idGate(F)) {
             pins.digitalWritePin(DigitalPin.P15, 1) //Switch the mux to xnor
             xnor()
-            basic.pause(2000) //pause on the truth table for 2 seconds
             idGate(Y)
             pins.digitalWritePin(DigitalPin.P15, 0) //switch the mux back to xor
             row = 1
