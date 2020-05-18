@@ -687,6 +687,14 @@ _Due to time constraints, I have not included all of the gates for each section.
    |:-:|:-:|
    | Odd number of inputs H | H |
    | Even number of inputs H | L |
+   
+   ![alt_text](images/Proof.jpg)
+   
+   _Full Adder_
+   
+   On its own, the sum output for the full adder requires three fewer gates than the original circuit.
+   
+    ![alt_text](images/Adder.jpg)
 
 2. [AND](https://i.imgur.com/m3ajLTy.mp4)
 
