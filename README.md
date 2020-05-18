@@ -703,7 +703,7 @@ _Due to time constraints, I have not included all of the gates for each section.
       
       Sum of Minterms:
       
-      <img src="https://render.githubusercontent.com/render/math?math=\bar{A}BC + A\bar{B}C + AB\bar{C} + ABC">
+      <img src="https://render.githubusercontent.com/render/math?math=\bar{A}BC %2B A\bar{B}C %2B AB\bar{C} %2B ABC">
    
     ![alt_text](images/Adder.jpg)
 
