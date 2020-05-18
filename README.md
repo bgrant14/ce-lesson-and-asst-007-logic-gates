@@ -704,20 +704,19 @@ _Due to time constraints, I have not included all of the gates for each section.
       
       Sum of Minterms:
       
-      <img src="https://render.githubusercontent.com/render/math?math=\bar{A}BC %2B A\bar{B}C %2B AB\bar{C} %2B ABC">
+      C<sub>out</sub> = <img src="https://render.githubusercontent.com/render/math?math=\bar{A}BC %2B A\bar{B}C %2B AB\bar{C} %2B ABC">
       
       Simplification:
       
-      <img src="https://render.githubusercontent.com/render/math?math=\bar{A}BC %2B A\bar{B}C %2B AB(\bar{C} %2B C)">
+      C<sub>out</sub> = <img src="https://render.githubusercontent.com/render/math?math=\bar{A}BC %2B A\bar{B}C %2B AB(\bar{C} %2B C)">
       
+      = <img src="https://render.githubusercontent.com/render/math?math=\bar{A}BC %2B A(B %2B \bar{B}C)">
       
-      <img src="https://render.githubusercontent.com/render/math?math=\bar{A}BC %2B A(B %2B \bar{B}C)">
+      = <img src="https://render.githubusercontent.com/render/math?math=\bar{A}BC %2B AB %2B AC">
       
-      <img src="https://render.githubusercontent.com/render/math?math=\bar{A}BC %2B AB %2B AC">
+      = <img src="https://render.githubusercontent.com/render/math?math=B(A %2B \bar{A}C) %2B AC">
       
-      <img src="https://render.githubusercontent.com/render/math?math=B(A %2B \bar{A}C) %2B AC">
-      
-      <img src="https://render.githubusercontent.com/render/math?math=AB %2B BC %2B AC">
+      = <img src="https://render.githubusercontent.com/render/math?math=AB %2B BC %2B AC">
       
       Implementation
    
