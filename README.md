@@ -147,16 +147,18 @@ _Due to time constraints, I have not included all of the gates for each section.
 
 ## Section 5: Microbit Logic Analyzer
 
-1. In this experiment, the microbit code from the previous experiment was modified to show output from the logic gates line-by-line. The microbit stores the output from each input combination in an array, which it passes to a function that determines which (if any) of the basic gates it represents. The microbit then displays the result on the screen or says "No name" for a logic function which is not identifiable as a basic gate. 
+1. __Narrative__
+
+   In this experiment, the microbit code from the previous experiment was modified to show output from the logic gates line-by-line. The microbit stores the output from each input combination in an array, which it passes to a function that determines which (if any) of the basic gates it represents. The microbit then displays the result on the screen or says "No name" for a logic function which is not identifiable as a basic gate. 
 
    If the code detects an XOR gate, it assumes that it is connected to the XOR/XNOR chip and powers an additional output pin to switch the chip to XNOR mode. It then displays the next set of results line-by-line next to the XOR results before running a second analysis and confirming that it is XNOR.
    
    I used the same code for both sections of this assignment as I misunderstood the instructions. However, the code works for both parts.
    
    
-   **_The following exhaustive truth tables were generated using a C program. I have included my code in the repository._
+   _The following exhaustive truth tables were generated using a C program. I have included my code in the repository._
 
-   _NOR Exhaustive Truth Table_
+   ___NOR Exhaustive Truth Table___
    
    | A | B | C | D | E | F | G | H | _Q_ |
    |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -417,14 +419,14 @@ _Due to time constraints, I have not included all of the gates for each section.
    | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 0 | 0 |
    | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 0 |
    
-   _NOR Abstract Truth Table_
+   ___NOR Abstract Truth Table___
    
    | All inputs A through H | Output Q |
    |:-:|:-:|
    | All inputs L | H |
    | One or more input H | L |
 
-   _XOR Exhaustive Truth Table_
+   ___XOR Exhaustive Truth Table___
 
    | A | B | C | D | E | F | G | H | _Q_ |
    |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -685,7 +687,7 @@ _Due to time constraints, I have not included all of the gates for each section.
    | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 0 | 1 |
    | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 0 |
    
-   _XOR Abstract Truth Table_
+   ___XOR Abstract Truth Table___
    
    | Inputs A through H | Output Q |
    |:-:|:-:|
@@ -694,19 +696,19 @@ _Due to time constraints, I have not included all of the gates for each section.
    
    ![alt_text](images/Proof.jpg)
    
-   _Full Adder_
+   ___Full Adder___
    
       __Sum Output Question__
       
       On its own, the sum output for the full adder requires three fewer gates than the original circuit.
    
-      __Cout Output Questions__
+      __C<sub>out</sub> Output Questions__
       
-      Sum of Minterms:
+      _Sum of Minterms:_
       
       C<sub>out</sub> = <img src="https://render.githubusercontent.com/render/math?math=\bar{A}BC %2B A\bar{B}C %2B AB\bar{C} %2B ABC">
       
-      Simplification:
+      _Simplification:_
       
       C<sub>out</sub> = <img src="https://render.githubusercontent.com/render/math?math=\bar{A}BC %2B A\bar{B}C %2B AB(\bar{C} %2B C)">
       
@@ -718,9 +720,9 @@ _Due to time constraints, I have not included all of the gates for each section.
       
       = <img src="https://render.githubusercontent.com/render/math?math=AB %2B BC %2B AC">
       
-      Implementation
+      _Implementation:_
    
-    ![alt_text](images/Adder.jpg)
+    ![alt_text](images/Cout.jpg)
 
 2. [AND](https://i.imgur.com/m3ajLTy.mp4)
 
